@@ -9,6 +9,7 @@ public class Bill3 {
 
 		double amount_per_person = Double.valueOf(total_amount) / (args.length - 1);
 		amount_per_person = Math.ceil(amount_per_person) ; 
-		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + amount_per_person + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 +
+							": pay " + amount_per_person + " Shekels each.");
 	}
 }
