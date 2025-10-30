@@ -12,6 +12,9 @@ public class TimeFormat {
 
 		String fullMinutes = Integer.toString(minutes);
 		Boolean pm = false;
+		if (hours == 12) {
+			pm = true;
+		}
 		//Checks if the time is greater than 12
 		if (hours > 12)
 		{
