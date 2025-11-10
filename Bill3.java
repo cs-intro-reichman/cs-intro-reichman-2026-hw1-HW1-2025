@@ -3,6 +3,11 @@ public class Bill3 {
 	public static void main(String[] args) {
 		// To get you started, here is the first line in the program:
 	    String name1 = args[0];
+		String name2 = args[1];
+		String name3 = args[2];
 	    // Replace this comment with the rest of your code   
+	    double billTotal = Double.parseDouble(args[3]);
+		double toPayEach = Math.ceil(billTotal/3);
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ":" + " pay " + toPayEach + " Shekels each");
 	}
 }
